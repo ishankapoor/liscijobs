@@ -1,10 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-    theme: {
-      extend: {
-        // ...
-      },
-    },
-    plugins: [],
-  }
-  
+  content: ["./dist-clean-pull/index.html",
+            "./dist-clean-pull/in/index.html"],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+};
